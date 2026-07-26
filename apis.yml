@@ -1,8 +1,25 @@
 aid: daffy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/daffy.png
 name: Daffy
-description: 'Daffy is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Daffy (the Daffy Charitable Fund) is a modern donor-advised fund (DAF) platform that helps
+  people be more generous, more often. Co-founded by Adam Nash, Daffy lets members set aside money for
+  charity, invest it tax-free across ETFs, individual stocks, and 300+ crypto assets, and then recommend
+  grants to any of 1.7M+ eligible US charities on their own timeline. It offers flat-rate membership
+  pricing starting at $3/month, family funds for up to 24 members, advisor integration, and Daffy for
+  Work employer giving. Daffy Charitable Fund is a tax-exempt public charity under IRC 501(c)(3). Backed
+  by Ribbit Capital, it operates as a consumer fintech app with no public developer API surface as of
+  this profile.'
 url: https://raw.githubusercontent.com/api-evangelist/daffy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Charitable Giving
+- Donor Advised Fund
+- Nonprofit
+- Wealth Management
+- Investing
+- Philanthropy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/daffy-domain-security.yml
 - type: Website
   url: https://www.daffy.org
+- type: About
+  url: https://www.daffy.org/about
+- type: Pricing
+  url: https://www.daffy.org/membership
+- type: SignUp
+  url: https://www.daffy.org/signup
+- type: Login
+  url: https://www.daffy.org/login
+- type: Support
+  url: https://help.daffy.org/en/
+- type: TermsOfService
+  url: https://www.daffy.org/legal/agreement
+- type: PrivacyPolicy
+  url: https://www.daffy.org/legal/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
