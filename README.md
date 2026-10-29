@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Daffy is a company surfaced as a portfolio company of ribbit-capital and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Daffy (the Daffy Charitable Fund) is a modern donor-advised fund (DAF) platform that helps people be more generous, more often. Co-founded by Adam Nash, Daffy lets members set aside money for charity, invest it tax-free across ETFs, individual stocks, and 300+ crypto assets, and then recommend grants to any of 1.7M+ eligible US charities on their own timeline. It offers flat-rate membership pricing starting at $3/month, family funds for up to 24 members, advisor integration, and Daffy for Work employer giving. Daffy Charitable Fund is a tax-exempt public charity under IRC 501(c)(3). Backed by Ribbit Capital, it operates as a consumer fintech app with no public developer API surface as of this profile.
 
-Backed by: ribbit-capital — https://www.daffy.org
+**Areas:** Company · Fintech · Charitable Giving · Donor Advised Fund · Non-Profit · Wealth Management · Investing · Philanthropy
+
+## Daffy on APIs.io
+
+Everything profiled for Daffy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/daffy/](https://apis.io/providers/daffy/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [daffy](https://apis.io/servers/daffy/daffy/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Daffy Domain Security](https://apis.io/security/daffy/daffy-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.daffy.org)
+- [Pricing](https://www.daffy.org/membership)
+- [Sign up](https://www.daffy.org/signup)
+- [Support](https://help.daffy.org/en/)
+- [Terms of service](https://www.daffy.org/legal/agreement)
+- [Privacy policy](https://www.daffy.org/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 14.9** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 44.7 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/daffy/](https://apis.io/providers/daffy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Daffy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/daffy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
